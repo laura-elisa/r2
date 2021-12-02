@@ -1,0 +1,74 @@
+// **Group members profiles**   
+// Each profile consists of (1) avatar, (2) username, (3) personal description, (4) number of "likes" the profile will receive throughout the interaction
+	
+window.others = {
+  "posts" : [
+      {
+        "avatar": "avatars/others/george.png",
+        "username": "Corgii",
+        "text": "Ich bin gerne draussen in der Natur mit meinem 3-jährigen Riesenwelpen;-) Bei meiner Gruppe, der Feuerwehr sind Teamplayer gefragt! Egal ob morgens um 3 oder mittags: wenn der Alarm eingeht, müssen wir uns blind aufeinander verlassen können. Neben der Kameradschaft spielt da natürlich auch die sehr gute Ausbildung eine Rolle: du lernst sehr viel Neues und auch dein eigenes Dorf besser kennen -> also ideal für die Integration ins Dorfleben",
+        "likes": [45000, 50000, 110000, 150000] //4
+      },
+      {
+        "avatar": "avatars/others/sarah.png",
+        "username": "Sarah",
+        "text": "Über mich: ich bin Sarah, ich bin Teilzeitstudentin und Teilzeitmami. Eigentlich Vollzeitmami (: Daneben spiele ich gerne Beachvolley zu warmen Jahreszeiten. Zu kalten bleibe ich aber lieber zuhause und mache einen Spielenachmittag.",
+        "likes": [1000, 12000, 14000,15000,35000,80000,100000,110000,150000,20000] //9
+      },
+      {
+        "avatar": "avatars/others/john.png",
+        "username": "Jojo",
+        "text": "ehm ich bin voll unkreativ beim schreiben... ich wohne in Basel und spiele gerne Gitarre. Wenn meine Mitbewohner Zeit haben dann jammen wir zusammen ein bisschen aber eine richtige Band sind wir nicht. Macht spass!",
+		"likes": [20000, 21000] //2
+      },
+      {
+        "avatar": "avatars/others/anca.png",
+        "username": "ABCD",
+        "text": "Das ist das erste mal an dem ich an einer Studie teilnehme, ich bin gespannt. Ich bin ein Popcorn-liebendes Wesen das die meiste Freizeit vor dem Fernseher verbringt. Serienjunkie oder unbezahlter Serien-Kritiker? P.S: any Casa de Papel fans???",
+        "likes": [10000, 12000, 40000, 80000, 120000] //5
+      },
+      {
+        "avatar": "avatars/others/niki.png",
+        "username": "niki",
+        "text": "Seit mehreren Jahren gehöre ich dem AV Frobis an. Wir sind eine farbentragende, nicht-schlagende Studentenverbindung in Basel. Bei uns sind alle Studierenden der Uni Basel oder der FH Nordwestschweiz willkommen, unabhängig vom Studienfach oder -fortschritt, Geschlecht, Sexualität und politischer Gesinnung. Die Freundschaften die du in der Studentenverbindung findest, halten ein Leben lang!",
+        "likes": [40000, 450000, 90000] //3
+      },
+    {
+        "avatar": "avatars/others/mary.png",
+        "username": "BettyBaker",
+        "text": "Hejj zeme, wilkomme uf mim profil. bin do zum ane paar Onlinestudie mitzmache :) lached mi jiz nid uss aber ich ghör zu dene gstörte wo während em lockdown s backe für sich entdeckt hend :) und jä, ich han die ganz hefe ufkauft, sorry...:) uf Insta gids imfall vill gruppe wo zeme baggwettbewerbe mache, isch voll cool will lüt us de ganze wält kennelernsch :)",
+        "likes": [20000, 25000, 35000, 40000, 95000,100000,110000,150000,20000] //9
+      },
+      {
+        "avatar": "avatars/others/lauren.png",
+        "username": "froschmann",
+        "text": "Wie ihr vielleicht aus meinem username rauslesen könnt, ist mein Hobby Tauchen. Ich nutze jede Chance um abzutauchen (pun intended), vor allem im Roten Meer. Dort trifft man automatisch Leute und schliesst sich zu Gruppen zusammen vor allem wenn man in die Tauchschule geht. Wir sind keine offizielle Gruppe aber wie gesagt findet man sich automatisch",
+        "likes": [12000, 38000] //2
+      },
+          {
+        "avatar": "avatars/others/kim.png",
+        "username": "kiki",
+        "text": "Ich bin 25 und studiere erst seit diesem Semester in Basel. In meiner Freizeit spiele ich Bowling bei den Wilddogs in Waldshut. Der Verein stellt den Spass am Bowling in den Vordergrund.",
+        "likes": [10000, 50000, 88000, 11000, 11500, 120000, 15000] //7
+      },
+      {
+        "avatar": "avatars/others/arjen.png",
+        "username": "Veritus",
+        "text": "Hallo ich bin das Kleeblatt. Ich engagiere mich gerade dafür, dass wir endlich unsere Freiheit wieder erlangen und diese unnötigen und schädlichen Corona-Massnahmen endlich aufgehoben werden. Falls ihr dieses Spiel auch satt habt, schaut doch bei den Freiheitsbebbis vorbei.",
+        "likes": [12000, 40000, 120000] //3
+      },
+      {
+        "avatar": "avatars/others/heather.png",
+        "username": "Libra",
+        "text": "Wenn ich mich mit einem einzigen Wort beschreiben müsste, dann wäre das Wort Bücherwurm. Ich bin entweder in der Bibliothek, im Buchladen oder hinter einem Buch anzutreffen. Den Spruch, never judge a book by its cover, finde ich völligen Schwachsinn: ich nehme nur Bücher in die Hand, dessen Cover mir ins Auge sticht.",
+        "likes": [13000, 50000, 80000, 88000, 120000] //5
+      },
+      {
+        "avatar": "avatars/others/jane.png",
+        "username": "JN",
+        "text": "sorry aber ich bin nur für die unterschriften hier ich hab keine lust was zu schreiben. ijdiw ji jfsjeijijia fdsjfkj weijfsjfk mejmkaj ",
+        "likes": [10000, 50000] //2
+      },
+
+    ]
+  };
