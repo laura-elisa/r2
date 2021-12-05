@@ -19,7 +19,7 @@ window.others = {
         "avatar": "avatars/others/john.png",
         "username": "Jojo",
         "text": "ich wohne in Basel und spiele gerne Gitarre. Wenn meine Mitbewohner Zeit haben dann jammen wir zusammen ein bisschen aber eine richtige Band sind wir nicht. Macht spass!",
-		"likes": [1000, 1200, 20000, 21000] //4
+		"likes": [10000, 12000, 20000, 21000] //4
       },
       {
         "avatar": "avatars/others/anca.png",
