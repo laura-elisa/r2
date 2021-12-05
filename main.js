@@ -15,7 +15,7 @@ $(function() {
 	// Number of avatars the user can choose from. Can be changed to any number, depending on how many avatars you would like to display. Default: 82
 	// The avatar images used in the online preview of the paradigm were created using by pickaface.net and due to their terms not available for redistribution. You should therefore create your own images. All images should be 250x250 pixels in size and carry the names "avatar_NUMBER.png" (e.g. avatar_1.png; "png" should be lower case; the numbers in the names should be consequtive, starting from 1). The number of avatars dependeds on the corresponding parameter. The images should be placed in folder "avatars," located in the main study folder extracted on your computer or server.
 
-    settings.numberofavatars = 10;
+    settings.numberofavatars = 47;
 
 	
     // **Redirection**    
@@ -28,7 +28,7 @@ $(function() {
 	
 	// **Tasklength**     
     // Length of the group introduction task in milliseconds. Can be changed to any number (in ms). Default: 180000 (3min) 
-    settings.tasklength = 180000; 
+    settings.tasklength = 240000; 
 
 	
 	// **Number** **of** **"likes"**    
@@ -52,7 +52,7 @@ $(function() {
 	
     // Usernames by which the participant will receive "likes"
 	// If group member names are changed, these should be changed accordingly.
-    settings.likes_by = ['Veritus','kiki','froschmann','BettyBaker','JR','Jojo','ABCD','Corgii','Sarah']; 
+    settings.likes_by = ['Veritus','kiki','Daruu','Corinna','froschmann','Jojo','BettyBaker','fuchsia','Sarah']; 
   }
   
   // -------------------
@@ -142,7 +142,7 @@ $(function() {
   	$('#text').show();
 
   	$("#description").keyup(function(){
-  	  $("#count").text("Characters left: " + (400 - $(this).val().length));
+  	  $("#count").text("Characters left: " + (600 - $(this).val().length));
   	});
 
   	$('#submit_text').on('click',function() {
@@ -157,7 +157,7 @@ $(function() {
   			error = 1;
   			errormsg = 'Bitte schreibe noch etwas mehr';
 			}
-  		if($('#description').val().length > 401) {
+  		if($('#description').val().length > 601) {
   		
   			error = 1;
   			errormsg = 'Bitte schreibe etwas weniger';
