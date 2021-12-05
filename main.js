@@ -142,7 +142,7 @@ $(function() {
   	$('#text').show();
 
   	$("#description").keyup(function(){
-  	  $("#count").text("Characters left: " + (600 - $(this).val().length));
+  	  $("#count").text("Verbleibende Zeichen: " + (600 - $(this).val().length));
   	});
 
   	$('#submit_text').on('click',function() {
